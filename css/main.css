@@ -30,8 +30,13 @@
   opacity: 0.5;
 }
 .section-about {
-  margin-top: 50px;
-  margin-bottom: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+}
+
+#about {
+  background: #f4f8fc;
 }
 .box {
   padding: 40px 10px !important;
@@ -72,7 +77,8 @@
 
 .section-contact {
   /*background-image: url(https://i.pinimg.com/originals/08/a7/ab/08a7ab130881d2fb60585dc37744e04b.jpg);*/
-background-image: url(https://www.copaair.com/promotions/airtrfx-lp/MIA-cover-md.jpg);
+  /*background-image: url(https://www.copaair.com/promotions/airtrfx-lp/MIA-cover-md.jpg);*/
+
   background-size: cover;
   background-position: center;
 }
@@ -83,7 +89,9 @@ background-color: #FAFAFA;
 background-size: cover;
 }
 
-.page-footer {}
+footer {
+  background: #f4f8fc !important;
+}
 
 
 
@@ -102,10 +110,13 @@ background-size: cover;
 
 
 .section-testimonials{
- /* background: url(https://media.giphy.com/media/46hpy8xB3MiHfruixn/giphy.gif);*/
   background-position: center;
   background-size: cover;
-  margin-bottom: 80px;
-  margin-top: 80px;
+  padding-bottom: 80px;
+  padding-top: 50px;
 
+}
+
+.section-testimonials h2 {
+  margin-bottom: 30px;
 }
