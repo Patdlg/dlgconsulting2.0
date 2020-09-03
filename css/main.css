@@ -121,3 +121,12 @@ footer {
 .section-testimonials h2 {
   margin-bottom: 30px;
 }
+
+@media (max-width: 1500px) {
+  iframe {
+    width: 400px;
+    height: 315px;
+    
+  }
+
+}
